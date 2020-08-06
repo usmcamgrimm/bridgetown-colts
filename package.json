@@ -1,0 +1,24 @@
+{
+  "name": "colts",
+  "version": "1.0.0",
+  "description": "This will be a page designed to proctice pulling data from various APIs, to keep track of:\r * stats\r * schedules\r * rankings\r * standings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmcamgrimm/coltsAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmcamgrimm/coltsAPI/issues"
+  },
+  "homepage": "https://github.com/usmcamgrimm/coltsAPI#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

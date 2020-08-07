@@ -20,5 +20,8 @@
   "homepage": "https://github.com/usmcamgrimm/coltsAPI#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
   }
 }

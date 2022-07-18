@@ -7,7 +7,8 @@ exports.addPlayer = (request, response) => {
       records: [
         {
           name: request.body.name,
-          number: request.body.number
+          number: request.body.number,
+          position: request.body.position
         }
       ]
     },

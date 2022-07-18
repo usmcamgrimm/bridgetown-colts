@@ -5,6 +5,8 @@ const routesController = require('./api/index');
 const app = express();
 const PORT = 8000;
 
+app.get('/', (req, res) => res.json('Express Server'));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
